@@ -11,7 +11,7 @@
 
     1. HTML Images
     2. HTML Styles
-    3. HTML Links
+    3. HTML Ankle tag
         a. href
         b. target
         c. download
@@ -29,5 +29,24 @@
                 search
                 tag
         e. type="text/html"
-    4. HTML Attributes
+    4. HTML Attributes - The element or tag defines the specific value to the element to work some revelant functions.
     5. HTML Formatting Tags - Tomorrow
+
+
+# HTML Basic 10-06-24
+
+    1. HTML Styles - Just to understand the basic inline property 
+    2. HTML Formatting - 
+        <b>	    Defines bold text
+        <em>	Defines emphasized text 
+        <i>	      Defines a part of text in an alternate voice or mood
+        <small>	  Defines smaller text
+        <strong>	Defines important text
+        <sub>	Defines subscripted text
+        <sup>	Defines superscripted text
+        <ins>	Defines inserted text
+        <del>	Defines deleted text
+        <mark>	Defines marked/highlighted text
+    3. HTML Quotations
+    4. HTML Comments
+    5. HTML Lists
