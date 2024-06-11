@@ -50,3 +50,10 @@
     3. HTML Quotations
     4. HTML Comments
     5. HTML Lists
+
+# HTML Baisc 11-06-24
+
+    1. HTML Block and Inline 
+    2. HTML Div
+    3. HTML Classes
+    4. HTML Id
