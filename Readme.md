@@ -57,3 +57,11 @@
     2. HTML Div
     3. HTML Classes
     4. HTML Id
+
+# HTML Intermediate 13-06-24
+
+    1. HTML iframes
+    2. HTML JavaScript
+    3. HTML File Paths 
+    4. HTML Layouts - Tomorrow
+    5. HTML Responsive - Tomorrow
