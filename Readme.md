@@ -65,3 +65,11 @@
     3. HTML File Paths 
     4. HTML Layouts - Tomorrow
     5. HTML Responsive - Tomorrow
+
+# HTML Intermediate 14-06-24
+
+    1. HTML Layouts
+    2. HTML Style Guide
+    3. HTML Entities - Tomorrow
+    4. HTML Charsets - UTF-8 : Tomorrow
+    5. HTML Forms - Tomorrow

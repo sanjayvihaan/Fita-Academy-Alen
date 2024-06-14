@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Intermediate</title>
+
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .section__body nav {
+            float: left;
+            width: 20%;
+            height: 80vh;
+            background-color: #ef9696;
+            padding: 20px;
+        }
+
+        .section__body article {
+            float: left;
+            width: 80%;
+            height: 80vh;
+            background-color: green;
+            padding: 20px;
+            color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            clear: both;
+        }
+    </style>
+
+
+</head>
+<body>
+    <!-- HTML layout elements -->
+     <!-- 
+        1. <header> - Defines a header for a document or a section
+        2. <nav> - Defines navigation links
+        3. <section> - Defines a section in a document
+        4. <article> - Defines an article, self-contained content
+        5. <aside> - Defines content aside from the content (like a sidebar)
+        6. <footer> - Defines a footer for a document or a section
+        7. <details> - Defines additional details that the user can view or hide
+        8. <summary> - Defines a heading for the <details> element
+     -->
+
+    <header class="header">
+        <h1>HTML Layout - Header</h1>
+    </header>
+
+    <section class="section__body">
+        <nav>
+            <p>Side bar</p>
+            <p>Home</p>
+            <p>About</p>
+            <p>Contact</p>
+        </nav>
+
+
+        <article>
+            <h2>Body section</h2>
+            <h2>HTML Layout Benifits</h2>
+            <p>HTML Layout is useful for organize the code structure and make it responsive</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Footer section</p>
+        <p>CopyRight &copy; 2020</p>
+    </footer>
+
+
+
+    <!-- HTML Style Guide -->
+
+    <p>A Consistent, clean and tidy HTML code which make it easier for other to read and understand your code</p>
+
+    <!--
+    * Use Lowercase Elements Name
+    * Close All HTML Elements
+    * Use Lowercase Attribute Names
+    * Quote Attribute Values
+    * Use Consistent Indentation
+    * Use Consistent Line Length
+    * Use Consistent Naming Convention
+    * Use Consistent File Naming Convention
+    * Use Consistent File Structure
+    * Use Consistent File Encoding
+    * Use Consistent Language Code
+    * Use Consistent Character Encoding
+    * Use Consistent URL Format
+    * Use Consistent Protocol
+    * Use Consistent File Extension
+    * Use Consistent Case
+    * Use Consistent File Size
+    * Use Consistent Image Format
+    * Use Consistent Image Dimensions
+    * Use Consistent Image Resolution
+    * Use Consistent Image Quality
+    * Use Consistent Image Compression
+    * Use Consistent Image Optimization
+    * Use Consistent Image Alt Text
+    * Use Consistent Image Title Text
+    * Use Consistent Image File Name
+    * Use Consistent Image Folder Name
+    * Use Consistent Image URL
+    * Use Consistent Image Path
+    * Use Consistent Image Hosting
+    * Use Consistent Image CDN
+    * Use Consistent Image Lazy Loading
+    * Use Consistent Image Preloading
+    -->
+
+
+    <!-- <!DOCTYPE html>: Always declaring the document type as the first line in your document -->
+
+    <h2>Use Lowercase Elements Name</h2>
+
+    <P>Capital P</P>
+    <p>small p</p>
+
+    <!-- 
+    However, we recommend using lowercase element names, because:
+    * Mixing uppercase and lowercase names looks bad
+    * Developers normally use lowercase names
+    * Lowercase looks cleaner
+    * Lowercase is easier to write
+ -->
+
+
+ <h2>Close All HTML Elements</h2>
+
+ <section>
+    <p>This is closed Para</p>
+
+    <p>This is not closed Para <!-- This is not closed para: Not recommended -->
+    <p>This is a continue not closed para
+ </section>
+
+
+
+
+ <h2>Use Lowercase Attribute Names</h2>
+<!-- HTML allows mixing uppercase and lowercase letters in attribute names.
+
+However, we recommend using lowercase attribute names, because:
+
+    * Mixing uppercase and lowercase names looks bad
+    * Developers normally use lowercase names
+    * Lowercase looks cleaner
+    * Lowercase is easier to write 
+-->
+
+<a href="" class="lower__case"></a>
+
+<a HREF="" CLASS="UPPER__CASE"></a> <!-- Not recommended -->
+
+<img src="" alt="" width="" height="">
+
+
+
+
+
+</body>
+</html>
