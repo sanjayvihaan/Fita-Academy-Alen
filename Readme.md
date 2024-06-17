@@ -73,3 +73,9 @@
     3. HTML Entities - Tomorrow
     4. HTML Charsets - UTF-8 : Tomorrow
     5. HTML Forms - Tomorrow
+
+# HTML Intermediate 17-06-24
+
+    1. HTML Entities 
+    2. HTML Charsets
+    3. HTML Forms

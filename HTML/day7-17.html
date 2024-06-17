@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Intermediate - Day 7</title>
+
+
+    <style>
+        #submit{
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML Entites: It is like Reservedd characters in HTML must be replaced with entities -->
+
+    <!-- < - Less Than : &lt --> 
+    <!-- > - Greater Than: &gt-->
+
+    <!-- & - Ampersand: &amp; -->
+    <!-- " - Double Quote: &quot; -->
+    <!-- ' - Single Quote: &apos; -->
+    <!-- ¢ - cent: &cent -->
+    <!-- £ - Pound: &pound -->
+    <!-- © - copyright: &copy	 -->
+    <!-- ® - Registered Trademark: &reg -->
+    <!-- ™ - Trademark: &trade -->
+
+
+    <!-- HTML Charset -->
+
+    <!-- UTF-8: Unicode Transformation Format – 8-bit -->
+
+    <!-- HTML 5 encourages web developers to use the UTF-8 character set. -->
+
+    <!-- The ASCII Character set -->
+    <!-- 
+    Engish letter (A-Z and a-z)
+    Numbers (0-9)
+    Special Characters (such as !, $, #, %, etc.)
+    -->
+
+
+    <h1>HTML Form</h1>
+
+    <form action="" method="post">
+        <!-- First Name, Last Name, Email Id, Mobile No, dob, Gender, submit  -->
+
+        <label for="fname">First Name</label><br>
+        <input type="text" placeholder="Ram" id="fname" required>
+        <br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" placeholder="Kumar" required>
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="ram@gmail.com" required>
+        <br>
+        <label for="mobile">Mobile No</label><br>
+        <input type="tel" placeholder="9055568886" required>
+        <br>
+        <label for="dob">DOB</label><br>
+        <input type="date" required>
+        <br>
+
+
+        <label for="gender">Gender</label><br>
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="female" id="" value="Female">
+        <label for="nps">Not Perfer to Say</label>
+        <input type="radio" name="nps" id="" value="Not Perfer to Say">
+        <br>
+
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars" multiple>
+            <option value="select">---- Select ----</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="RR">Range Rover</option>
+        </select>
+
+        <br>
+
+        <label for="file">Upload your Resume</label>
+        <input type="file" id="" required>
+
+        <br>
+        <label for="description">Description</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!-- The rows attribute specifies the visible number of lines in a text area.
+            The cols attribute specifies the visible width of a text area.
+        <textarea name="" id="" cols="30" rows="10" style="resize: none;"></textarea> -- In this textarea has fixed size and not resizable
+        -->
+
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="">
+        <br>
+        <label for="color">Color</label>
+        <input type="color">
+        <br>
+        <label for="image">Image</label>
+        <input type="image" src="" alt="No Image">
+
+        <br>
+        <label for="month">Month</label>
+        <input type="month">
+
+        <br>
+        <label for="range">Range</label>
+        <input type="range" min="0" max="11">
+
+        <br>
+        <input type="reset">
+        <br>
+
+        <label for="Search the site"></label>
+        <input type="search" id="search" placeholder="Search the site">
+        <br>
+
+        <label for="time">Time</label>
+        <input type="time" min="9:00" max="18:00">
+
+        <br>
+        <label for="url">Enter an https url</label>
+        <input type="url" id="url" required>
+
+        <br>
+        <input type="submit" value="Submit" id="submit">
+
+
+    <!-- Form Attribute:  -->
+        <form action="" method=""></form>
+
+    <!-- The action attribute defines the action to be performed when the form is submitted. 
+    Usually, the form data is sent to a file on the server when the user clicks on the submit button. 
+    -->
+
+    <!-- The method attribute specifies the HTTP method (GET or POST) to be used when sending form-data to the action URL.
+        The method attribute specifies the HTTP method to be used when submitting the form data.
+        The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post").
+        The default HTTP method when submitting form data is GET. 
+
+        --------------------------------
+
+        GET: Appends the form-data to the URL in name/value pairs: URL?name=value&name=value
+        The length of a URL is limited (about 3000 characters).
+        Never use GET to send sensitive data! (will be visible in the URL)
+
+        POST: Sends the form-data as an HTTP post transaction
+        Form data is not shown in the URL
+        Has no size limitations
+
+
+
+    </form>
+
+
+    <script>
+        // document.getElementById('submit').addEventListener('click', function(){
+
+        //     firstName = document.getElementById('fname');
+
+        //     if(firstName.value == '') {
+        //         alert('Please Enter your Name')
+        //     }
+
+        // });
+    </script>
+-->
+
+</body>
+</html>
