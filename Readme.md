@@ -79,3 +79,10 @@
     1. HTML Entities 
     2. HTML Charsets
     3. HTML Forms
+
+# HTML Intermediate 18-06-24
+
+    1. HTML Graphics
+    2. HTML Tables
+    3. HTML Media - Tomorrow
+    4. HTML APIs - Tomorrow

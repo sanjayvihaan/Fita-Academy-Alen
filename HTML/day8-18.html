@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Day - 8 Intermediate</title>
+
+
+    <style>
+        table, th, td, tr {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+    </style>
+
+
+
+</head>
+
+
+
+
+
+<body>
+    <h1>HTML Graphics</h1>
+    <ul>
+        <li>HTML Canvas</li>
+        <li>SVG</li>
+    </ul>
+
+    <h2>HTML Canvas</h2>
+    <p>The HTML canvas element is used to draw graphics, on the fly, via JavaScript.</p>
+
+    <canvas id="myCanvas" width="200" height="100" style="border: 1px solid #000; background-color: red;"></canvas>
+    <div style="background-color: green; height: 200px; width: 200px; border: 2px solid yellow;"></div>
+
+
+    <h2>SVG</h2>
+    <p>Scalable vector graphics which can be directly embedded in HTML Pages. and does not lose any quality if they are zoomed or resized</p>
+
+    <!-- <ol>
+        <li>SVG stands for Scalable Vector Graphics</li>
+        <li>SVG is used to define vector-based graphics for the Web</li>
+        <li>SVG defines graphics in XML format</li>
+        <li>Each element and attribute in SVG files can be animated</li>
+        <li>SVG is a W3C recommendation</li>
+        <li>SVG integrates with other standards, such as CSS, DOM, XSL and JavaScript</li>
+    </ol> -->
+
+    <br>
+
+    <svg width="300" height="300">
+        <circle cx="55" cy="55" r="60" stroke="black" stroke-width="3" fill="red"/>
+    </svg>
+
+    <svg>
+        <rect x="50" y="20" rx="5" ry="5" width="150" height="100" style="fill: aqua; border: 2px solid red"/>
+    </svg>
+
+
+    <h2>HTML Table</h2>
+
+    <!-- table - creating table -->
+     <!-- <tr></tr> : Used to create rows in table-->
+    <!-- <td></td> : Used to create columns/data's in table-->
+    <!-- <th></th> : Used to create header in table-->
+
+    <table width="100%">
+        <tr>
+            <th colspan="2">SL No</th>
+            <th style="width: 50%;" >Names</th>
+            <th style="width: 40%;">Email Id</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Alen</td>
+            <td>alen@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>John</td>
+            <td>john@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Ram</td>
+            <td>ram@gmail.com</td>
+        </tr>
+    </table>
+
+
+    <table>
+        <tr>
+            <th colspan="5">Room Tariff</th>
+        </tr>
+
+        <tr>
+            <th rowspan="3">Room Type</th>
+            <th colspan="2">Deluxe</th>
+            <th colspan="2">Executive</th>
+        </tr>
+
+        <tr>
+            <td> AC</td>
+            <td>Non-AC</td>
+            <td>AC</td>
+            <td>Non-AC</td>
+        </tr>
+
+        <tr>
+            <td>1500</td>
+            <td>1000</td>
+            <td>2500</td>
+            <td>1500</td>
+        </tr>
+    </table>
+
+
+
+    <script>
+        // var c = document.getElementById("myCanvas");
+        // var ctx = c.getContext("2d");
+        // ctx.moveTo(0,0);
+        // ctx.lineTo(200,100);
+
+        // ctx.moveTo(200,0);
+        // ctx.lineTo(0,100);
+        // ctx.stroke();
+
+
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+</body>
+</html>
