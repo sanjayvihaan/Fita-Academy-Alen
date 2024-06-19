@@ -86,3 +86,15 @@
     2. HTML Tables
     3. HTML Media - Tomorrow
     4. HTML APIs - Tomorrow
+
+# HTML Intermediate 19-06-24
+
+    1. HTML Media
+        Image - <img> - png, jpeg, jpg, webp, svg
+        video - <video></video> - mp4, avi, webM
+        <svg></svg>
+        <audio>
+
+        Project - Media Video
+    2. HTML APIs - End
+    3. HTML Web Workers - End

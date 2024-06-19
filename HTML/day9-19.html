@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9 - HTML Intermediate</title>
+</head>
+<body>
+    <!-- <h1>Video </h1>
+    <video src="./assets/Waterfall model in Software engineering - Software development Life Cycle - SDLC.mp4" height="300px" width="50%" style="border: 2px solid black;" loop muted>
+    </video> -->
+    <!-- <source src=""> -->
+
+    <!-- <audio src="./assets/sulthana.mp3" controls ></audio> -->
+
+
+    <!-- Add mute=1 after autoplay=1 to let your video start playing automatically (but muted). -->
+    <!-- <iframe src="https://www.youtube.com/embed/RiUh_8VTGYM?si=kV9pQG4dYX6KLiM6?autoplay=0&mute=1" width="560" height="315"></iframe> -->
+
+
+    <!-- HTML GeoLoaction -->
+     <h2>HTML GeoLocation</h2>
+     <p>Click the button to get your coordinates</p>
+     <button onclick="getLoctation()">Click now</button>
+
+     <p id="cord"></p>
+
+
+
+     <script>
+        const cod = document.getElementById('cord');
+
+
+
+        function getLoctation(){
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(showPosistion);
+            } else {
+                cod.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosistion(position) {
+            cod.innerHTML = "Latitude: " + position.coords.latitude + "<br> Longitude: " + position.coords.latitude; 
+        } 
+     </script>
+</body>
+</html>
