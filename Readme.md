@@ -98,3 +98,24 @@
         Project - Media Video
     2. HTML APIs - End
     3. HTML Web Workers - End
+
+
+# CSS Beginner 20-06-24
+    1. What is CSS?:
+        Answer: CSS is the language we use style an HTML Document, it describes how html elements should be displayed.
+
+    2. Introduction of CSS:
+        CSS - Cascading Style Sheets, CSS can save lot of work. It can control the layout of multiple web page all at once.
+        External stylesheets will be stored in CSS folder
+
+    3. Types of CSS
+        1. Inline CSS
+        2. Internal CSS
+        3. External CSS
+        4. JavaScript CSS - Not Now
+        Need to verify which is prior 
+    4. CSS Syntax - 
+        tag_name {
+            properties
+        }
+    5. CSS Selectors - tag name, id's, class

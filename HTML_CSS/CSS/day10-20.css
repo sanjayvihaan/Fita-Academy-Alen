@@ -1,0 +1,42 @@
+.external_css {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    padding: 20px;            
+}
+
+.external_css h2{
+    font-size: 40px;
+    color: blue;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.external_css p{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.test_css h1{
+    color: aqua;
+}
+
+#read_more {
+    text-decoration: none;
+    font-size: 18px;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.internal_css {
+    /* background-color: brown; */
+    border: 2px solid black;
+}
+
+.inline_css h1{
+    color: green !important;
+}
+

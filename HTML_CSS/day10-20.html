@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS - Day 1</title>
+
+    <!-- Linking Enternal CSS File -->
+     <link rel="stylesheet" href="./CSS/day10-20.css">
+
+    <style>
+        .internal_css {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid green;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .test_css h1{
+            color: yellow;
+        }
+
+
+        .internal_css h2{
+            font-size: 40px;
+            color: blue;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        .internal_css p{
+            font-size: 18px;
+            font-weight: normal;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #read_more {
+            text-decoration: none;
+            font-size: 18px;
+            color: aqua;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .internal_css {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid red;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 50%;
+        }
+    </style>
+    
+
+</head>
+<body>
+    <!-- Inline CSS: It is a way we write the css/style in the element it self. -->
+     <!-- Inline CSS will be the first priority -->
+    <div class="test_css">
+        <h1 style=" font-size: 60px;">Today we are going to learn HTML and CSS</h1>
+        <div style="width: 300px; height: 300px; border: 2px solid #000;"></div>
+        <p>This is to show the differement font family</p>
+    </div>
+
+
+    <!-- Internal CSS -->
+     <div class="internal_css">
+        <h2>Understanding about Internal CSS</h2>
+        <p>If you want to know more about the Internal CSS, click the link below</p>
+        <a href="#" id="read_more">Read More</a>
+     </div>
+
+
+     <!-- External CSS -->
+      <div class="external_css">
+        <h3>Understanding about External CSS</h3>
+        <p>Learn and understand the external CSS</p>
+        <a href="#">Read More</a>
+      </div>
+</body>
+</html>
