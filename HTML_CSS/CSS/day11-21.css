@@ -1,0 +1,31 @@
+/* 
+Chaging the font color of h1
+Shortcut is ctrl/cmd + / 
+*/
+
+h1 {
+    color: red; /* Changing the font color of h1 */
+}
+
+
+/* CSS Background */
+ol {
+    background-color: rgb(120, 81, 78);
+    /* opacity: 0.5; */
+}
+
+/* CSS Background - Image */
+
+body {
+    background-image: url("https://img.freepik.com/free-psd/golden-flowers-with-watercolor-stains_23-2150755996.jpg?w=1480&t=st=1718936957~exp=1718937557~hmac=373149b99ca05567eef0cc42a4e81eb3c41568268defff5f9e454638ce228b90");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:fixed; /* Default is scroll */
+
+
+    width: 100%;
+
+    /* brackground: color/image bg-repat bg-position */
+    background: #fff url("https://img.freepik.com/free-psd/golden-flowers-with-watercolor-stains_23-2150755996.jpg?w=1480&t=st=1718936957~exp=1718937557~hmac=373149b99ca05567eef0cc42a4e81eb3c41568268defff5f9e454638ce228b90") no-repeat right top;
+}
+

@@ -119,3 +119,10 @@
             properties
         }
     5. CSS Selectors - tag name, id's, class
+
+# CSS Beginner 21-06-24
+    1. CSS Comments
+    2. CSS Colors
+    3. CSS Backgrounds
+    4. CSS Borders
+    5. CSS Height/Width
