@@ -1,0 +1,54 @@
+.head_border {
+    border-style: dashed;
+    border-width: 10px 20px 30px 40px; /* top right bottom left */
+    border-color: red green blue yellow;
+
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+}
+
+
+.head_border {
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+
+/* CSS Height and Width */
+
+.height__width {
+    max-width: 80%;
+    width: 50%;
+    height: 200px;
+    background-color: red;
+}
+
+/* CSS Margin */    
+
+.margin__one{
+    background-color: blue;
+    width: 30%;
+    height: 200px;
+    margin: 20px;  /* top right bottom left */
+    padding: 30px;
+}
+
+.margin__div{
+    background-color: green;
+    width: 30%;
+    height: 200px;
+    margin: 20px 40px;  /* top bottom right left */
+
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+div {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }

@@ -124,5 +124,34 @@
     1. CSS Comments
     2. CSS Colors
     3. CSS Backgrounds
-    4. CSS Borders
-    5. CSS Height/Width
+    4. CSS Borders - Monday
+    5. CSS Height/Width - Monday
+
+# CSS Beginner 26-06-24
+    1. CSS Borders
+        dotted - Defines a dotted border
+        dashed - Defines a dashed border
+        solid - Defines a solid border
+        double - Defines a double border
+        groove - Defines a 3D grooved border. The effect depends on the border-color value
+        ridge - Defines a 3D ridged border. The effect depends on the border-color value
+        inset - Defines a 3D inset border. The effect depends on the border-color value
+        outset - Defines a 3D outset border. The effect depends on the border-color value
+        none - Defines no border
+        hidden - Defines a hidden border
+
+
+    2. CSS Height/Width
+        auto - This is default. The browser calculates the height and width
+        length - Defines the height/width in px, cm, etc.
+        % - Defines the height/width in percent of the containing block
+        initial - Sets the height/width to its default value
+        inherit - The height/width will be inherited from its parent value
+
+
+    3. CSS Margins
+    4. CSS Padding
+    5. CSS Box Model
+
+    Task given: To make a box model based on image
+    Image url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Box_Model_Tasks/mdn-box-model3.png
