@@ -1,0 +1,93 @@
+.outline {
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: red;
+
+    outline: 2px double green;
+}
+
+.offset {
+    outline: 4px dashed blue;
+    border: 2px solid red;
+    outline-offset:10px;
+    margin: 30px;
+    padding: 20px;
+}
+
+/* CSS Text */
+
+.css__text h2 {
+    color: green;
+}
+
+.css__text h3 {
+    text-align: center;
+
+    
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 10px;
+
+    text-decoration: underline blue dotted 3px;
+
+
+    text-decoration: none;
+}
+
+.css__text a {
+    text-decoration: none;
+}
+
+/* Text transform */
+
+.text__transform h2 {
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+.text__transform p {
+    text-transform: lowercase;
+}
+
+/* Text Spacing */
+
+.text__space p {
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    word-spacing: 5px;
+    white-space: nowrap;
+}
+
+/* Text shadow */
+
+.text__shadow h1 {
+    text-shadow: 2px 3px 5px red; /* horizontal, vertical, blur, color */
+}
+
+
+/* CSS Links */
+
+.css__link a {
+    color: green;
+    font-size: 20px;
+}
+
+/* link, hover, visited, active */
+
+.css__link a:link {
+    text-decoration: none;
+}
+
+.css__link a:hover {
+    color: blue;
+}
+
+/* .css__link a:visited {
+    color: purple;
+} */
+
+.css__link a:active {
+    color: red;
+}

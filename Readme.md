@@ -155,3 +155,38 @@
 
     Task given: To make a box model based on image
     Image url: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Box_Model_Tasks/mdn-box-model3.png
+
+# CSS Beginner 28-06-24
+    1. CSS Outline
+        * outline - shorthand
+        * outline-style
+        * outline-width
+        * outline-offset
+        * outline-color
+    2. CSS Text
+        * Text Color
+        * Text Alignment
+        * Text Decoration
+            i. text-decoration
+            ii. text-decoration-color
+            iii. text-decoration-line
+            iv. text-decoration-style
+            v. text-decoration-thickness
+        * Text Transformation
+        * Text Spacing
+            i. text-indent
+            ii. letter-spacing
+            iii. line-height
+            iv. word-spacing
+            v. white-space
+        * Text shadow
+    3. CSS Fonts - Tomorrow
+        * Font Family
+        * Font web safe
+        * Font style
+        * Font size
+        * Font Google
+        * Font Pairings
+        * Font Shorthand
+    4. CSS Icons - Tomorrow 
+    5. CSS Links
