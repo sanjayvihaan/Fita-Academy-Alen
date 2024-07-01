@@ -190,3 +190,33 @@
         * Font Shorthand
     4. CSS Icons - Tomorrow 
     5. CSS Links
+
+
+    # CSS Beginner 28-06-24
+        1. CSS Fonts
+            * Font Family
+            * Font web safe
+                The following list are the best web safe fonts for HTML and CSS:
+                    Arial (sans-serif)
+                    Verdana (sans-serif)
+                    Tahoma (sans-serif)
+                    Trebuchet MS (sans-serif)
+                    Times New Roman (serif)
+                    Georgia (serif)
+                    Garamond (serif)
+                    Courier New (monospace)
+                    Brush Script MT (cursive)
+
+            * Font style
+                i. normal
+                ii. italic
+                iii. oblique
+            * Font size
+            * Font Google
+            * Font Shorthand
+        2. CSS Icons
+
+        3. CSS Lists  - Tomorrow 
+        4. CSS Tables  - Tomorrow
+        5. CSS Display  - Tomorrow
+        6. Span Tag  - Tomorrow
