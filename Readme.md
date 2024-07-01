@@ -192,7 +192,7 @@
     5. CSS Links
 
 
-    # CSS Beginner 28-06-24
+# CSS Beginner 01-07-24
         1. CSS Fonts
             * Font Family
             * Font web safe
