@@ -220,3 +220,12 @@
         4. CSS Tables  - Tomorrow
         5. CSS Display  - Tomorrow
         6. Span Tag  - Tomorrow
+            This is an inline container, used to mark up a part of a text, or a part of a document
+            This tag is easily styled by CSS or manipulated with JS using classes or Id
+            This tag is much like the <div> element, but <div> is like block-level element and <span> is an inline element.
+
+
+# CSS Beginner 02-07-24
+        1. CSS Lists
+        2. CSS Tables
+        3. CSS Max-width
