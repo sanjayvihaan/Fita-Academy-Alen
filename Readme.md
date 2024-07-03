@@ -229,3 +229,11 @@
         1. CSS Lists
         2. CSS Tables
         3. CSS Max-width
+
+
+# CSS Intermediate 03-07-24
+    1. CSS Display
+    2. CSS Align-items
+    3. CSS Overflow
+    4. CSS Z-index
+    5. CSS Position

@@ -1,0 +1,54 @@
+.display_prop {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+
+    /** Flex Direction  */
+    flex-direction: column; /* column: Stack the items vertically */
+    flex-direction: column-reverse; /* column-reverse: Stack the items vertically in reverse */
+    flex-direction: row-reverse; /* row-reverse: Stack the items horizontally in reverse */
+    flex-direction: row; /* row: Stack the items horizontally - Default */
+
+    /** Justify-Content */
+    justify-content: space-around; /* space-around: Around the container*/
+    justify-content: flex-start; /* flex-start: Start the container* - Default */
+    justify-content: flex-end;  /*flex-end: End the container*/
+    justify-content: space-evenly; /* space-evenly: Space evenly the container*/
+    justify-content: center; /* center: Center the container*/
+    justify-content: space-between; /* space-between: Between the container*/
+
+    /** Align-Items */
+    align-items: flex-start; /* flex-start: it starts at top position */
+    align-items: center; /* center: it starts at center position */
+    align-items: flex-end; /* flex-end: it starts at bottom position */
+    align-items: stretch; /* stretch: it starts at full height position */
+    align-items: baseline; /* baseline: it starts at baseline position */
+
+    gap: 20px; /* gap: Space between the items */
+}
+
+.display_prop div {
+    width: 20%;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Overflow Prop */
+
+.overflow_prop {
+    background-color: green;
+    width: 200px;
+    height: 60px;
+    overflow: visible; /* visible: Default */
+    overflow: hidden; /* hidden: Hide the content */
+    overflow: scroll; /* scroll: Add scroll bar */
+    overflow: auto; /* auto: Add scroll bar if needed */
+}
