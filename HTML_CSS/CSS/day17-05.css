@@ -1,0 +1,91 @@
+.main-element {
+    position: static;
+    left: 30px;
+    bottom: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.sibling-element {
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+/* Postion - relative */
+
+.main-element {
+    position: relative;
+    left: 30px;
+    bottom: 100px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* Position - Absoulte */
+
+.main-element {
+    position: relative;
+}
+
+.parent_element {
+    position: relative;
+    padding: 10px;
+    background-color: blue;
+}
+
+.sibling-element {
+    border: 2px solid red;
+    padding: 10px;
+}
+
+/* Positon */
+
+div.relative {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 2px solid red;
+}
+
+div.absolute {
+    position: absolute;
+    border: 2px solid blue;
+    width: 200px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+}
+
+/* Position - fixed */
+
+.main-element {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* Position - sticky */
+
+.main-element1 {
+    position: sticky;
+    top: 30px;
+    background-color: yellow;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.parent_element1 {
+    position: relative;
+    height: 800px;
+    background-color: antiquewhite;
+    padding: 50px 10px;
+
+}
+
+/* CSS Opacity */
+
+.img_opa {
+    opacity: 0.2; /* 0.5 = 50%, 1 = 100% */ 
+}

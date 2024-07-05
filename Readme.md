@@ -237,3 +237,17 @@
     3. CSS Overflow
     4. CSS Z-index
     5. CSS Position
+
+# CSS Intermediate 05-07-24
+    1. CSS Position
+        i. Static
+        ii. Relative
+        iii. Absolute
+        iv. Fixed
+        v. Sticky
+        Example: https://appbrewery.github.io/css-positioning/
+    2. CSS Opacity
+    2. CSS Z-Index - Next Class
+    3. CSS Pseudo-class - Next Class
+    4. CSS Pseudo-element - Next Class
+    
