@@ -251,3 +251,20 @@
     3. CSS Pseudo-class - Next Class
     4. CSS Pseudo-element - Next Class
     
+
+# CSS Intermediate 08-07-24
+    1. CSS Z-Index
+    2. CSS Pseudo-Class
+    3. CSS Pseudo-Element
+    4. Float
+    5. CSS Navigation Bar - Navbar
+
+# Project - 08-07-24
+    1. CSS Intermediate 05-07-24
+        Task: Create a page that demonstrates different positioning techniques with examples.
+        Project: Develop a webpage that includes a fixed navigation bar and a sticky footer using css positioning
+    
+    2. CSS Intermediate 08-07-24
+        Task: Create a navigation bar that uses pseudo-classes and pseudo-elements for styling
+        Project: Design a full webpage layout that includes a header, navigation bar, content area, and footer, 
+        using advanced CSS Properties like z-index, float and flexbox.

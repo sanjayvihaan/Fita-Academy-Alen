@@ -1,0 +1,69 @@
+.z-index img {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+}
+
+/* Pseudo Class */
+.pseudo-class:link { /* unvisited link */
+    color: red;
+}
+
+.pseudo-class:visited { /* visited link */
+    color: green;
+}
+
+.pseudo-class:hover { /* hovering */
+    color: royalblue;
+}
+
+/* Pseudo Element */
+.pseudo-element::first-line {
+    color: green;
+    font-variant: small-caps;
+}
+
+/* Float */
+.float {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    background-color: red;
+}
+
+/* CSS Navigation */
+.vertical__nav{
+    background-color: orange;
+    width: 200px;
+    height: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    float: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.vertical__nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical__nav li {
+    line-height: 40px;
+
+}
+
+.vertical__nav li:hover {
+    background-color: red;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.vertical__nav a {
+    text-decoration: none;
+    color: black;
+}
