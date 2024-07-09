@@ -268,3 +268,14 @@
         Task: Create a navigation bar that uses pseudo-classes and pseudo-elements for styling
         Project: Design a full webpage layout that includes a header, navigation bar, content area, and footer, 
         using advanced CSS Properties like z-index, float and flexbox.
+
+    
+# CSS Advance 09-07-24
+    1. CSS Dropdowns
+    2. CSS Image Gallery
+    3. CSS Forms
+    4. Website Layout
+    5. CSS Gradients
+        a. Linear Gradients
+        b. Radial Gradinents
+        c. Conic Gradienents
