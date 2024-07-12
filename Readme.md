@@ -279,3 +279,9 @@
         a. Linear Gradients
         b. Radial Gradinents
         c. Conic Gradienents
+
+# CSS Advance 12-07-24
+    1. CSS Image Gallery
+    2. CSS Forms
+    3. Website Layout
+    4. CSS Gradients

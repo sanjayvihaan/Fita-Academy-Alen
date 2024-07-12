@@ -1,0 +1,93 @@
+body {
+    /* background: #111; */
+    background-color: #fff;
+}
+
+/* .img__block img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.images__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.img__block {
+    width: 32%;
+    margin: 10px 0;
+    flex: 1 1 calc(32% - 20px);
+    box-sizing: border-box;
+} */
+
+
+.img__block img {
+    width: 100%;
+}
+
+.images__container {
+    column-count: 3;
+    column-width: 300px;
+}
+
+.img__block {
+    margin: 0 auto 15px;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Col count */
+
+.col {
+    column-count: 4;
+    column-width: 300px;
+}
+
+.cols  {
+    background-color: white;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    margin: 10px
+}
+
+/* CSS Form */
+
+.form__container {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input[type=text], input[type=email], select {
+    width: 20%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: width .35s ease-in-out;
+}
+
+input:focus {
+    outline-color: black;
+    width: 30%;
+}
+
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 20%;
+}
+
+
+
+
