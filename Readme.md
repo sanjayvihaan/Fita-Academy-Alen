@@ -285,3 +285,13 @@
     2. CSS Forms
     3. Website Layout
     4. CSS Gradients
+
+
+# CSS Advance 16-07-24
+    1. CSS Gradients
+        a. Linear Gradients
+        b. Radial Gradients
+        c. Conic Gradients
+    2. CSS Shadows
+        a. text-shadow
+        b. box-shadow
