@@ -300,5 +300,5 @@
     1. Text overflow
     2. CSS Tooltips
     3. CSS Variables
-    4. CSS Box Sizing
-    5. Media Query
+    4. CSS Box Sizing - Tomorrow
+    5. Media Query - Tomorrow
