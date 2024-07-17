@@ -295,3 +295,10 @@
     2. CSS Shadows
         a. text-shadow
         b. box-shadow
+
+# CSS Advance 17-07-24
+    1. Text overflow
+    2. CSS Tooltips
+    3. CSS Variables
+    4. CSS Box Sizing
+    5. Media Query

@@ -1,0 +1,86 @@
+:root {
+    --black: #000;
+    --blue: blue;
+    --yellow: yellow;
+    --border: 2px solid var(--black)
+}
+
+
+
+
+.clip {
+    border: var(--border);
+    width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.ellipsis{
+    border: var(--border);
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.clip:hover {
+    overflow: visible;
+    width: 100%;
+}
+
+/* Tooltips */
+
+.tooltip {
+    position: relative;
+
+    background-color: var(--yellow);
+    padding: 10px 20px;
+    color: darkblue;
+    border-radius: 8px;
+    width: 25%;
+}
+
+.tooltip .tooltip__text {
+    visibility: hidden;
+    width: 130px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+
+    position: absolute;
+    z-index: 1;
+
+    top: 100%;
+    left: 50%;
+
+
+    border: 2px solid blue;
+}
+
+.tooltip:hover .tooltip__text {
+    visibility: visible;
+}
+
+
+.tooltip .tooltip__text::before {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red blue black green;
+}
+
+/* ::after selector */
+
+.afterClass::after {
+    content: " - Remember this";
+}
+
+.afterClass::before {
+    content: "Fullstack developer - ";
+}
