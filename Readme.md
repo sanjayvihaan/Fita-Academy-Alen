@@ -302,3 +302,8 @@
     3. CSS Variables
     4. CSS Box Sizing - Tomorrow
     5. Media Query - Tomorrow
+
+# CSS Advance 18-07-24
+    1. CSS Box Sizing
+    2. Media Query
+    3. Bootstrap
