@@ -308,5 +308,14 @@
     2. Media Query
     3. Bootstrap
 
-# Bootstrap
-    
+# Bootstrap 20-07-24
+    a. Container
+	b. Row & col
+	c. Typography
+
+# Bootstrap 22-07-24
+    a. Tables
+    b. Images
+    c. Alerts
+    d. Buttons
+    e. Button Groups
