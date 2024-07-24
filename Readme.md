@@ -327,3 +327,31 @@
     b. Carousel
     c. Dropdowns
     d. grid
+
+# Project on 24-07-24
+    Project: Personal Portfolio Website
+    Objective:
+    Create a fully responsive personal portfolio website that showcases your skills, projects, and contact information. The website will use HTML for structure, CSS for styling, and Bootstrap for responsive design and additional components.
+
+    Project Requirements
+        Pages:
+            Home
+            About
+            Projects
+            Contact
+        
+        File Structure:
+            portfolio/
+                ├── css/
+                │   └── styles.css
+                ├── images/
+                │   └── profile.jpg
+                ├── js/
+                │   └── script.js
+                ├── index.html
+                ├── about.html
+                ├── projects.html
+                └── contact.html
+
+
+
