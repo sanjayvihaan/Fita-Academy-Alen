@@ -319,3 +319,11 @@
     c. Alerts
     d. Buttons
     e. Button Groups
+    f. Badge
+
+
+# Bootstrap 24-07-24
+    a. Menus
+    b. Carousel
+    c. Dropdowns
+    d. grid
