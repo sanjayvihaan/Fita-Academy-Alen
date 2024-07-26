@@ -354,4 +354,11 @@
                 └── contact.html
 
 
+# JavaScript Basics 26-07-24 (Day 27)
+    0. Short Intro fo JS
+    1. Variables
+    2. Operators
+    3. Comments
+    4. Datatypes
+    5. Conditions
 
