@@ -31,6 +31,5 @@ console.log(name);
 lang = "Python";
 console.log(lang);
 
-
 num = 10;
 console.log(num)
