@@ -362,3 +362,13 @@
     4. Datatypes
     5. Conditions
 
+
+# JavaScript Basics 31-07-24 (Day 28)
+    1. Operators
+    2. Data Types
+    3. Increment and Decrement Operator
+    4. Template Literal
+    5. Comparison Operator
+    6. Logical Operator
+    7. Conditions in JavaScript
+
