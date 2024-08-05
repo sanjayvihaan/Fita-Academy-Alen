@@ -372,3 +372,8 @@
     6. Logical Operator
     7. Conditions in JavaScript
 
+# JavaScript Basics 5-07-24 (Day 29)
+    1. Conditional in JS
+    2. Loops is JS
+    3. JS Alert, Prompt, Confirm
+    4. Type Conversion
