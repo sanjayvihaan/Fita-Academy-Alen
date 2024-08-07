@@ -377,3 +377,10 @@
     2. Loops is JS
     3. JS Alert, Prompt, Confirm
     4. Type Conversion
+
+# JavaScript Basics 7-07-24 (Day 30)
+    1. JavaScript String Manipulation
+    2. JavaScript Array
+    3. JavaScript Functions
+    4. JavaScript Objects
+    5. JavaScript DOM
