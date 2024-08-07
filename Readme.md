@@ -384,3 +384,23 @@
     3. JavaScript Functions
     4. JavaScript Objects
     5. JavaScript DOM
+
+
+# Project
+
+Project: Interactive Recipe Book
+Objective:
+Create an interactive recipe book website that allows users to browse, search, and view various recipes. The website should include features like recipe categories, detailed recipe pages, and a contact form for user feedback.
+
+
+recipe-book/
+├── css/
+│   └── styles.css
+├── images/
+│   └── [your_images_here]
+├── js/
+│   └── script.js
+├── index.html
+├── categories.html
+├── recipes.html
+└── contact.html
