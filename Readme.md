@@ -404,3 +404,10 @@ recipe-book/
 ├── categories.html
 ├── recipes.html
 └── contact.html
+
+# JavaScript Basics 12-07-24 (Day 31)
+    1. JavaScript Functions
+    2. JavaScript Objects
+    3. JavaScript DOM
+    4. JavaScript BOM
+    5. SetInterval and SetTimeout
