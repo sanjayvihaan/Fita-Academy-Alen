@@ -170,20 +170,21 @@ console.log(currentDate);
 
 // getFunction
 
-        console.log(currentDate.getDate());
-        console.log(currentDate.getDay());
-        console.log(currentDate.getMonth());
-        console.log(currentDate.getHours());
-        console.log(currentDate.getMinutes());
-        console.log(currentDate.getSeconds());
-        console.log(currentDate.getTime());
+console.log(currentDate.getDate());
+console.log(currentDate.getDay());
+console.log(currentDate.getMonth());
+console.log(currentDate.getHours());
+console.log(currentDate.getMinutes());
+console.log(currentDate.getSeconds());
+console.log(currentDate.getTime());
 
 
 
-        // setFunctiond
+// setFunctiond
 
         let setDate = new Date();
         setDate.setHours("2");
         setDate.setMinutes("2");
         setDate.setFullYear("2004");
         console.log(setDate);
+        
