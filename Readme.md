@@ -411,3 +411,7 @@ recipe-book/
     3. JavaScript DOM
     4. JavaScript BOM
     5. SetInterval and SetTimeout
+
+# JavaScript Basics 13-07-24 (Day 32)
+    1. JavaScript Objects
+    2. JavaScript DOM
