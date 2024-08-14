@@ -188,3 +188,108 @@ console.log(currentDate.getTime());
         setDate.setFullYear("2004");
         console.log(setDate);
         
+
+// Creating new object using New Keyworkd
+
+let newObject = new Object();
+
+newObject.Name = "Sanjay";
+newObject.Job = "SWE";
+
+console.log(newObject);
+
+
+// getter function
+
+let getter =  {
+    name : "Sanjay",
+    lastName: "V",
+    get getName() {
+        return this.name.toUpperCase();
+    }
+}
+
+console.log(getter.getName);
+console.log(getter);
+
+
+// Setter
+
+let setter =  {
+    name: "john",
+    age: 20,
+    set setName({nam, age}) {
+        this.name = nam.toUpperCase();
+        // this.age = Number(age);
+        return
+    },
+}
+
+console.log(setter);
+
+setter.setName = {nam: "Alen"};
+
+console.log(setter.name);
+console.log(setter);
+
+
+// object constructor function:
+
+function Object(first, last, fullName, job, place){
+    this.firstName = first;
+    this.lastName = last;
+    this.name = fullName;
+    this.job = job;
+    this.place = place;
+}
+
+let personDet1 = new Object("Sanjay", "V", "Sanjay V", "SWE", "Bengaluru");
+
+console.log(personDet1);
+
+// object protype
+
+function proto(first, job){
+    this.firstName = first;
+    this.job = job;
+}
+
+proto.prototype.nationality = "Indian";
+proto.prototype.place = "Bengaluru";
+
+proto.prototype.name = function() {
+    return `${this.firstName} ${this.job}`
+}
+
+let pro1 = new proto("Sanjay", "SWE");
+
+console.log(pro1);
+console.log(pro1.nationality);
+
+console.log(pro1.place);
+
+
+// Nested Object
+
+let userData = {
+    user_id : 1,
+    date : "14-08-2024",
+    personal_data : {
+        name : "Sanjay",
+        age : 20,
+        email : "sanjay@gmail.com",
+        address: {
+            street: "abc",
+            city: "Bengaluru",
+            state: "KA",
+            country: "IN"
+        }
+    }
+}
+
+
+console.log(userData);
+console.log(userData.personal_data);
+console.log(userData.personal_data.address);
+
+console.log(userData.personal_data.address.country);

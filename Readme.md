@@ -414,4 +414,10 @@ recipe-book/
 
 # JavaScript Basics 13-07-24 (Day 32)
     1. JavaScript Objects
-    2. JavaScript DOM
+   
+# JavaScript Basics 14-07-24 (Day 33)
+    1. JavaScript Object
+
+
+# JavaScript Basics 15-07-24 (Day 34)
+    1. JavaScript DOM
