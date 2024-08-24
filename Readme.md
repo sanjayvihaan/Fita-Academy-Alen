@@ -372,13 +372,13 @@
     6. Logical Operator
     7. Conditions in JavaScript
 
-# JavaScript Basics 5-07-24 (Day 29)
+# JavaScript Basics 5-08-24 (Day 29)
     1. Conditional in JS
     2. Loops is JS
     3. JS Alert, Prompt, Confirm
     4. Type Conversion
 
-# JavaScript Basics 7-07-24 (Day 30)
+# JavaScript Basics 7-08-24 (Day 30)
     1. JavaScript String Manipulation
     2. JavaScript Array
     3. JavaScript Functions
@@ -405,19 +405,20 @@ recipe-book/
 ├── recipes.html
 └── contact.html
 
-# JavaScript Basics 12-07-24 (Day 31)
+# JavaScript Basics 12-08-24 (Day 31)
     1. JavaScript Functions
     2. JavaScript Objects
     3. JavaScript DOM
     4. JavaScript BOM
     5. SetInterval and SetTimeout
 
-# JavaScript Basics 13-07-24 (Day 32)
+# JavaScript Basics 13-08-24 (Day 32)
     1. JavaScript Objects
    
-# JavaScript Basics 14-07-24 (Day 33)
+# JavaScript Basics 14-08-24 (Day 33)
     1. JavaScript Object
 
 
-# JavaScript Basics 15-07-24 (Day 34)
-    1. JavaScript DOM
+# JavaScript Basics 24-08-24 (Day 34)
+    1. JavaScript DOM - Gets all the power it needs to create dynamic HTML -
+        The HTML DOM is a standard for how to get, change, add, or delete HTML Elements
