@@ -422,3 +422,14 @@ recipe-book/
 # JavaScript Basics 24-08-24 (Day 34)
     1. JavaScript DOM - Gets all the power it needs to create dynamic HTML -
         The HTML DOM is a standard for how to get, change, add, or delete HTML Elements
+
+# JavaScript Intermediate 28-08-24 (Day 35)
+    1. JavaScript Events
+        onchange	An HTML element has been changed
+        onclick	The user clicks an HTML element
+        onmouseover	The user moves the mouse over an HTML element
+        onmouseout	The user moves the mouse away from an HTML element
+        onkeydown	The user pushes a keyboard key
+        onload	The browser has finished loading the page
+
+    2. SetTimeOut and SetInterval
