@@ -433,3 +433,12 @@ recipe-book/
         onload	The browser has finished loading the page
 
     2. SetTimeOut and SetInterval
+
+
+# JavaScript Intermediate 28-08-24 (Day 36)
+    1. Window Location
+    2. Temperature Converter - Task
+        a. Add Event Listener - Projects/Temperature-Converter/script
+    3. Filter function - Task
+        a. Map Function in filter
+    4. Word Count - Task
