@@ -435,10 +435,15 @@ recipe-book/
     2. SetTimeOut and SetInterval
 
 
-# JavaScript Intermediate 28-08-24 (Day 36)
+# JavaScript Intermediate 29-08-24 (Day 36)
     1. Window Location
     2. Temperature Converter - Task
         a. Add Event Listener - Projects/Temperature-Converter/script
     3. Filter function - Task
         a. Map Function in filter
     4. Word Count - Task
+
+# JavaScript Intermediate 30-08-24 (Day 37)
+    1. Cookies 
+    2. Local Storage and Session Storage
+    3. Fetch API
