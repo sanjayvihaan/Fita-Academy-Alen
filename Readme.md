@@ -447,3 +447,8 @@ recipe-book/
     1. Cookies 
     2. Local Storage and Session Storage
     3. Fetch API
+
+# JavaScript Intermediate 02-09-24 (Day 38)
+    1. Fetch API - The fetch() function is the modern way to make network requests in JavaScript, allowing you to request resources, like data from a server, and handle the response. 
+
+    It replaces older methods like XMLHTTPRequest and is easier to use with a more powerful and flexible syntax.
