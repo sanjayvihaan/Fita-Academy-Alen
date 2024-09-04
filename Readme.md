@@ -452,3 +452,13 @@ recipe-book/
     1. Fetch API - The fetch() function is the modern way to make network requests in JavaScript, allowing you to request resources, like data from a server, and handle the response. 
 
     It replaces older methods like XMLHTTPRequest and is easier to use with a more powerful and flexible syntax.
+
+# JavaScript Intermediate 03-09-24 (Day 39)
+    Send Mail using JS Fetch API
+
+# JavaScript Intermediate 04-09-24 (Day 40)
+    Send Mail using JS Fetch API
+
+# Jquery Basic 04-09-24 (Day 40)
+    Jquery basics
+        1. Syntax
