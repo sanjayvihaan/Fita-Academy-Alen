@@ -19,30 +19,30 @@ $(document).ready(()=> {
 
 // Hide para element
 
-// $(document).ready(() => {
-//     $("button").click(() => {
-//         $("p").hide();
-//     })
-
-
-//     $("#showme").click(() => {
-//         $("p").show();
-//     })
-// })
-
-// Using Pure JS
-let para = document.querySelectorAll("p");
-let hidebtn = document.querySelector("button");
-let showbtn = document.getElementById("showme");
-
-hidebtn.onclick = () => {
-    para.forEach((p) => {
-        p.style.display = "none";
-    });
-};
-
-showbtn.onclick = () => {
-    para.forEach((p) => {
-        p.style.display = 'block';
+$(document).ready(() => {
+    $("button").click(() => {
+        $("p").hide();
     })
-}
+
+
+    $("#showme").click(() => {
+        $("p").show();
+    })
+})
+
+// --------------------------- Using Pure JS ------------------------------
+// let para = document.querySelectorAll("p");
+// let hidebtn = document.querySelector("button");
+// let showbtn = document.getElementById("showme");
+
+// hidebtn.onclick = () => {
+//     para.forEach((p) => {
+//         p.style.display = "none";
+//     });
+// };
+
+// showbtn.onclick = () => {
+//     para.forEach((p) => {
+//         p.style.display = 'block';
+//     })
+// }

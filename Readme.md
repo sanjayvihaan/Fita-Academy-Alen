@@ -462,3 +462,6 @@ recipe-book/
 # Jquery Basic 04-09-24 (Day 40)
     Jquery basics
         1. Syntax
+
+# Jquery Basic 06-09-24 (Day 41) 
+    1. Jquery Events
