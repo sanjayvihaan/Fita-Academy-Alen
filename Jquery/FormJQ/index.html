@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Handling using jquery</title>
+</head>
+<body>
+    <section class="form">
+        <form action="" method="post">
+            <h2>Handling form using jquery</h2>
+
+            <div class="alert" id="form_alert" style="display: none;"></div>
+
+
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="Name">
+            <br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Email"> 
+            <br><br>
+
+            <label for="phone">Phone No</label><br>
+            <input type="tel" id="phone" placeholder="Phone">
+            <br><br>
+
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+                <option value="select">------Select------</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+
+            <br><br>
+
+            <button id="submitBtn">Submit Now</button>
+
+
+
+
+
+        </form>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

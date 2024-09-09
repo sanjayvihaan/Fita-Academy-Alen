@@ -465,3 +465,8 @@ recipe-book/
 
 # Jquery Basic 06-09-24 (Day 41) 
     1. Jquery Events
+
+# Jquery Basic 09-09-24 (Day 42) 
+    1. Form Handling using Jquery
+    2. Understanding Ajax
+    3. Implementing Ajax
